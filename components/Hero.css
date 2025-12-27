@@ -1,0 +1,38 @@
+.text-gradient {
+  background: linear-gradient(135deg, #A8A9AD 0%, #C5A059 50%, #A8A9AD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: metallic-flow 6s linear infinite;
+}
+
+@keyframes metallic-flow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+.hero-showcase-mask {
+  mask-image: linear-gradient(to bottom, black 90%, transparent);
+}
+
+.btn-luxury {
+  position: relative;
+  background: white;
+  color: black;
+  overflow: hidden;
+}
+
+.btn-luxury::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.2), transparent);
+  transition: 0.5s;
+}
+
+.btn-luxury:hover::after {
+  left: 100%;
+}

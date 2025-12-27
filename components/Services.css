@@ -1,0 +1,13 @@
+.service-card {
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-12px);
+  border-color: rgba(197, 160, 89, 0.4);
+  background: #111114;
+}
+
+.service-icon-box {
+  background: linear-gradient(135deg, rgba(197, 160, 89, 0.1), transparent);
+}

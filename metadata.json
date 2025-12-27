@@ -1,0 +1,9 @@
+
+{
+  "name": "NovaDigital - Premium Service Portfolio",
+  "description": "A high-end, responsive professional portfolio for digital services featuring smooth animations, glassmorphism design, and an integrated AI assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

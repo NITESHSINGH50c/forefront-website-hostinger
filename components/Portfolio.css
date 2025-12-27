@@ -1,0 +1,16 @@
+.portfolio-item {
+  perspective: 1000px;
+}
+
+.portfolio-img-container {
+  mask-image: linear-gradient(to bottom, black 90%, transparent);
+}
+
+.modal-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}

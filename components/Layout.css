@@ -1,0 +1,24 @@
+.ambient-glow {
+  pointer-events: none;
+  z-index: -10;
+  border-radius: 50%;
+  filter: blur(180px);
+}
+
+.glow-gold {
+  background: rgba(197, 160, 89, 0.08);
+}
+
+.glow-silver {
+  background: rgba(168, 169, 173, 0.05);
+}
+
+.glow-dark {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}

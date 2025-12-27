@@ -1,0 +1,13 @@
+.about-stat-card {
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.about-stat-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(197, 160, 89, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.icon-gold {
+  color: #C5A059;
+}
